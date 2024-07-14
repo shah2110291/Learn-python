@@ -1,5 +1,2 @@
 print("Hello World")
-import pyjokes
-
-joke= pyjokes.get_joke()
-print(joke)
+print("hi here you will learn about the python programming")

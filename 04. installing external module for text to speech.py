@@ -1,42 +1,9 @@
 import pyttsx3
 engine = pyttsx3.init()
- 
+engine.say(''' To, install this module, for to text to speech, you have to go to google, and then search for, p, y, t, t ,s, x , and then go to the first website there they will instruct how to install this module, 
+            setp 1, open vs code, then open terminal in vs code, then run the following command, 
+            pip install pyttsx, and then go to the website we open first, scroll down, you will find some piece of, code, copy it and past it in the vs code, and then run the program, 
+            this was how to install this module. ''')
 engine.say("welcome, to the course of, python")
-engine.say("this course is design to learn about the python and here you will find some of the awosome programs")
-engine.say("now let's play Poem of the Twinkle Twikle")
-engine.say(''' 
-           Twinkle, Twinkle, Little Star
-
-Twinkle, twinkle, little star,
-How I wonder what you are!
-Up above the world so high,
-Like a diamond in the sky.
- 
-
-When the blazing sun is gone,
-When he nothing shines upon,
-Then you show your little light,
-Twinkle, twinkle, all the night.
-
-Twinkle, twinkle, little star,
-How I wonder what you are!
-
-Then the traveler in the dark
-Thanks you for your tiny spark;
-He could not see which way to go,
-If you did not twinkle so.
-
-Twinkle, twinkle, little star,
-How I wonder what you are!
- 
-
-Twinkle, twinkle, little star,
-How I wonder what you are!
-
-As your bright and tiny spark
-Lights the traveler in the dark,
-Though I know not what you are,
-Twinkle, twinkle, little star.
-           ''')
-engine.say("that's, was all about the instalation of external module, and performing opertion on it.")
+engine.say("this course is design to learn about the python and here you will find some of the awosome programs") 
 engine.runAndWait()
